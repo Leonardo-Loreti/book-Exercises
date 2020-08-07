@@ -1,3 +1,3 @@
-This is my first repository.
+Este é o meu primeiro repositório.
 
-Currently I'm studying c++ with the book "Accelerated C++", and I'd like to share some solutions for me to get used with GitHub.
+Atualmente estou estudando c++ com o livro "Accelerated c++", e eu gostaria de compartilhar algumas soluções para me habituar com o funcionamente do GitHub.
