@@ -1,1 +1,6 @@
 There are disposed in these files, all the programs discussed in the chapter 5 of the book. In order to run it, we have to comment all the programs we will not use, obviously.
+
+I didn't use the program made in the exercise 4.0, instead of it, I used a much more simpler
+program, because I believe the goal of this exercise, is to get used with the different containers
+we can use, wich one fits better for an specific application, and some tools to use them, like
+iterators instead of indexes.
