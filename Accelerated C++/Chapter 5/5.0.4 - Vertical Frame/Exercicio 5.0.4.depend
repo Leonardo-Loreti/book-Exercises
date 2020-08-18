@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1597756432 source:/home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.4/frame.cpp
+	<iostream>
+	<vector>
+	"width.h"
+
+1597753396 source:/home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.4/main.cpp
+	<iostream>
+	<vector>
+	"frame.h"
+
+1597753461 /home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.4/frame.h
+
+1597752849 /home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.4/width.h
+

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1597756663 source:/home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.5/frame.cpp
+	<iostream>
+	<vector>
+	"width.h"
+
+1597754500 /home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.5/width.h
+
+1597756777 source:/home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.5/main.cpp
+	<iostream>
+	<vector>
+	"hcat.h"
+	"frame.h"
+
+1597756686 /home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.5/frame.h
+
+1597754325 source:/home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.5/width.cpp
+	<iostream>
+	<vector>
+
+1597755620 source:/home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.5/hcat.cpp
+	<iostream>
+	<vector>
+	"width.h"
+
+1597755664 /home/leonardo/Documentos/C++/Problemas URI/Accelerated c++/Exercicio 5.0.5/hcat.h
+
