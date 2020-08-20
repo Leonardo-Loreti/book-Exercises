@@ -1,0 +1,6 @@
+		vector time(s)	list time(s)
+10     lines	5e-5 		5e-5
+100    lines	2e-4 		2e-4
+1000   lines	0.005		0.001
+10000  lines	0.267		0.016
+100000 lines	25.171		0.137
