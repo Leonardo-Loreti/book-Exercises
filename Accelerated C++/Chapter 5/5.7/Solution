@@ -12,8 +12,9 @@ the asteriscs, like the following:
 
 But, if we take a look on the frame function, we see that it returns a string type
 vector, but on the main program, we are just calling the function and giving
-it the vector v, we are not assigning the use of the function to a vector. So, even if the vector created on the main function is not empty, calling the function will
-not have the result that we expect, which is framing the phrases in the vector v.
+it the vector v, we are not assigning the use of the function to a vector. So,
+even if the vector created on the main function is not empty, calling the function
+will not have the result that we expect, which is framing the phrases in the vector v.
 The function will receive the vector v, do everything we want, call width() to get
 the maxlen, after that, create a vector<string> ret to receive the elements of v
 and frame it, but, we are not returning this framed vector to the main function,
