@@ -24,8 +24,8 @@ we want, it will get lost.
 We can fix it by simply assigning the calling of the function to the vector v
 on the main program, like we did in exercise 5.0.3, or we can modify the function
 to doesn't need to return a vector. This modification is on the frame.cpp in this 
-paste. Note that I changed the type of the function to void, because it doesn't 
-returns anything, and I changed the parameter that this function receive, previously
+folder. Note that I changed the type of the function to void, because it doesn't 
+returns nothing, and I changed the parameter that this function receive; previously
 the parameter was const vector<string>&, now we are going to modify this vector,
 so we need to get a vector<string>&, not const. And in the final, I attributed
 the vector ret, wich is already framed, to the vector v. And then the program works
