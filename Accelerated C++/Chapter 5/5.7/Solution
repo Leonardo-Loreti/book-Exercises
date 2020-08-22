@@ -1,0 +1,33 @@
+At a first glance we can see that we are creating a string type vector with no
+elements, so a result that we could expect is that the program would print just
+the asteriscs, like the following:
+	
+	program:
+	vector<string> v;
+    	frame(v);
+
+	result:
+	****
+	****
+
+But, if we take a look on the frame function, we see that it returns a string type
+vector, but on the main program, we are just calling the function and giving
+it the vector v, we are not assigning the use of the function to a vector. So, even if the vector created on the main function is not empty, calling the function will
+not have the result that we expect, which is framing the phrases in the vector v.
+The function will receive the vector v, do everything we want, call width() to get
+the maxlen, after that, create a vector<string> ret to receive the elements of v
+and frame it, but, we are not returning this framed vector to the main function,
+so all the work of the frame function will be done, but it'll not have the effect
+we want, it will get lost.
+
+We can fix it by simply assigning the calling of the function to the vector v
+on the main program, like we did in exercise 5.0.3, or we can modify the function
+to doesn't need to return a vector. This modification is on the frame.cpp in this 
+paste. Note that I changed the type of the function to void, because it doesn't 
+returns anything, and I changed the parameter that this function receive, previously
+the parameter was const vector<string>&, now we are going to modify this vector,
+so we need to get a vector<string>&, not const. And in the final, I attributed
+the vector ret, wich is already framed, to the vector v. And then the program works
+as we want.
+
+Ps.: Don't forget to change the header files.
