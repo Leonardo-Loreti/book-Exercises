@@ -1,0 +1,6 @@
+		vector:copying time(s)  vector:erasing time(s)
+10     lines	5e-5 			7e-5
+100    lines	2e-4			2.5e-4
+1000   lines	1.48e-3			4.66e-3
+10000  lines	0.014			0.253
+100000 lines	0.120			23.597
