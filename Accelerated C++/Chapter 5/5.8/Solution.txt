@@ -1,0 +1,16 @@
+I was searching solutions of this problem, and I found this one : 
+http://mathalope.co.uk/2014/09/01/accelerated-c-solution-to-exercise-5-8/,
+it's a very good analisys, very well explained, but it's kind of wrong. I didn't 
+have access to the site creator to talk to him about the solution, and to ask 
+for permission to use almost the same table he did, but I copyied it anyway, now
+the right way.
+
+Everytime that the while loop starts again, if the
+condition "if ( i != left.size())" is satisfied, the string s is "re-initialized" 
+naturally, actually, what happens is a replacement of the actual value, to the value
+of the next element in the vector left. This process is exposed in the "program 
+process" image in this folder. So, as you can see, while the condition above is 
+satisfied, we'll not have any problem with the program. But, when it's not satisfied,
+the string s will not be "re-initialized", it will continue with the value of the 
+previous loop, and when the program compute "width1 - s.size()", we will have a 
+negative value, and then the program will crash.
